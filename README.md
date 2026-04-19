@@ -1,6 +1,6 @@
-# 📺 Cadastro de Clientes — IPTV
+# 📋 Cadastro de Clientes
 
-Formulário de cadastro de clientes desenvolvido para serviço de IPTV, com integração automática ao Google Sheets e notificação por e-mail.
+Formulário de cadastro de clientes com integração automática ao Google Sheets e notificação por e-mail.
 
 ## 🚀 Funcionalidades
 
@@ -11,7 +11,6 @@ Formulário de cadastro de clientes desenvolvido para serviço de IPTV, com inte
 - Integração com Google Sheets via Apps Script
 - Notificação por e-mail a cada novo cadastro
 - Botão de contato via WhatsApp
-- Hospedado no Netlify
 
 ## 🛠️ Tecnologias
 
@@ -20,6 +19,11 @@ Formulário de cadastro de clientes desenvolvido para serviço de IPTV, com inte
 - Google Sheets
 - Netlify
 
-## 🌐 Demo
+## ⚙️ Como usar
 
-[Acessar formulário](https://cadastroedtv.netlify.app)
+1. Faça o download do arquivo `cadastro-clientes.html`
+2. No Google Sheets crie uma planilha com os cabeçalhos: `Nome, Email, WhatsApp, Local, Qtd Pontos, Instalação, Acesso, Pacote, Obs, Data`
+3. Crie um Apps Script vinculado à planilha com a função `doPost`
+4. Publique o script como App da Web e copie a URL
+5. Substitua a URL no arquivo HTML
+6. Hospede o arquivo em qualquer serviço como Netlify
